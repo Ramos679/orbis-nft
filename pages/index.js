@@ -82,7 +82,7 @@ export default function OrbisNftLanding() {
 
             {/* Desktop Socials Floating Vertically */}
             <div className="hidden lg:flex flex-col gap-3 mt-4">
-              {[Mail, Twitter, Github].map((Icon, i) => (
+              {[Mail, Github].map((Icon, i) => (
                 <button key={i} className="liquid-glass w-[56px] h-[56px] rounded-[1rem] flex items-center justify-center hover:bg-white/10 transition-colors z-20">
                   <Icon className="w-[20px] h-[20px] text-[#EFF4FF]" strokeWidth={1.5} />
                 </button>
@@ -102,7 +102,7 @@ export default function OrbisNftLanding() {
 
             {/* Mobile Socials Under Content */}
             <div className="flex lg:hidden justify-start gap-4 mt-12 pointer-events-auto">
-              {[Mail, Twitter, Github].map((Icon, i) => (
+              {[Mail, Github].map((Icon, i) => (
                 <button key={i} className="liquid-glass w-[56px] h-[56px] rounded-[1rem] flex items-center justify-center hover:bg-white/10 transition-colors">
                   <Icon className="w-[20px] h-[20px] text-[#EFF4FF]" strokeWidth={1.5} />
                 </button>
@@ -224,7 +224,7 @@ export default function OrbisNftLanding() {
           
           {/* Constrained exact VW sizing responsive Icon Buttons Stack (bottom-left) */}
           <div className="absolute left-[8%] bottom-[12%] sm:bottom-[15%] lg:bottom-[20%] liquid-glass rounded-[0.5rem] md:rounded-[1.25rem] flex flex-col pointer-events-auto">
-            {[Mail, Twitter, Github].map((Icon, i) => (
+            {[Mail, Github].map((Icon, i) => (
               <button key={i} className={`
                 flex items-center justify-center hover:bg-white/10 transition-colors
                 w-[14vw] h-[14vw] sm:w-[14.375rem] sm:h-[14.375rem] md:w-[10.78125rem] md:h-[10.78125rem] lg:w-[16.77rem] lg:h-[16.77rem]
