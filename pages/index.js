@@ -2,7 +2,7 @@
 
 
 import React from 'react';
-import { Mail, Twitter, Github, ChevronRight } from 'lucide-react';
+import { Mail, Github, ChevronRight } from 'lucide-react';
 
 export default function OrbisNftLanding() {
   const nftCards =[
