@@ -1,7 +1,5 @@
 module.exports = {
-  content: ["./pages/**/*.{js,jsx}"],
-  theme: {
-    extend: {},
+  plugins: {
+    '@tailwindcss/postcss': {},
   },
-  plugins: [],
 };
